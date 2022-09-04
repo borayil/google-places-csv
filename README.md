@@ -1,2 +1,6 @@
 # google-places-csv
-Simple Python script using Google Places API to search for queries and saving the results to a CSV file.
+This Python script uses Google Places API to search for the defined queries and saves them nicely to a CSV file. Useful when searching for a large set of places on Google.  
+
+# API Wrapper
+The wrapper [python-google-places](https://github.com/slimkrazy/python-google-places) allows the use of the Google Places API in a simplistic and efficient way.
+
