@@ -15,7 +15,7 @@ writer = csv.writer(f)
 if DETAILS_ENABLED:
     csv_header = ["Name", "Geo Location", "Google Places ID"]
 else:
-    csv_header = ["Name", "Address", "Telephone Number", "Website"] # TODO: Add all fields that come with details
+    csv_header = ["Name", "Address", "Telephone Number", "Website", "URL"] # TODO: Add all fields that come with details
 writer.writerow(csv_header)
 
 # Google Places API wrapper instance
