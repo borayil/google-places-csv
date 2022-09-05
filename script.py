@@ -3,8 +3,8 @@ from googleplaces import GooglePlaces, lang
 
 GOOGLE_PLACES_API_KEY = '?'
 DETAILS_ENABLED = False # Further details API call
-LAT = 10.00 # Lattitude of search area 
-LNG = 10.00 # Longitude of search area
+LAT = 39.0997 # Lattitude of search area 
+LNG = 94.5786 # Longitude of search area
 LANGUAGE = lang.ENGLISH # Language of results from Google API
 RADIUS = 50000 # Radius of search (in meters)
 
